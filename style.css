@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Noto+Serif+JP:wght@300&family=Syne:wght@400;700&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 18px;
+    margin:  0 auto;
+    max-width: 990px;
+    height: auto;
+    float: none;
+}
+#background {
+    background-image: url(/Assets/Kodansha.jpg);
+    max-width: 990px; min-width: 990px;
+    max-height: 4000px; min-height: 4000px;
+    background-repeat: no-repeat;
+}
+.menu {
+    width: 990px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu1 img {
+    padding-top: 460px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.menu2 img {
+    padding-top: 320px;
+}
+.menu3 img {
+    padding-top: 200px;
+}
