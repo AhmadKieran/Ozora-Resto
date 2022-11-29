@@ -14,7 +14,7 @@ body {
     float: none;
 }
 #background {
-    background-image: url(/Assets/Kodansha.jpg);
+    background-image: url(/Ozora-Resto/Assets/Kodansha.jpg);
     max-width: 990px; min-width: 990px;
     max-height: 4000px; min-height: 4000px;
     background-repeat: no-repeat;
