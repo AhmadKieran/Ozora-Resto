@@ -1,39 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Noto+Serif+JP:wght@300&family=Syne:wght@400;700&display=swap');
- 
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+
+*{
+    padding:0;
+    margin:0;
     box-sizing: border-box;
 }
-body {
+body{
     font-family: 'Noto Serif JP', serif;
-    font-size: 18px;
-    margin:  0 auto;
-    max-width: 990px;
-    height: auto;
-    float: none;
+    font-size:18px;
 }
-#background {
+#landing-page{
     background-image: url(/Ozora-Resto/Assets/Kodansha.jpg);
     max-width: 990px; min-width: 990px;
     max-height: 4000px; min-height: 4000px;
     background-repeat: no-repeat;
 }
 .menu {
-    width: 990px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.menu1 img {
-    padding-top: 460px;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-}
-.menu2 img {
-    padding-top: 320px;
-}
-.menu3 img {
-    padding-top: 200px;
-}
+        width: 990px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu1 img {
+        padding-top: 460px;
+        max-width: 315px;
+    }
+    .menu2 img {
+        padding-top: 320px;
+        max-width: 315px;
+    }
+    .menu3 img {
+        padding-top: 200px;
+        max-width: 315px;
+    }
+    .button-group {
+        width: 990px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
