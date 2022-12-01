@@ -43,7 +43,8 @@ body{
     background-image: url(Assets/Kodansha2.jpg);
     max-width: 990px; min-width: 990px;
     max-height: 4000px; min-height: 4000px;
-    margin-left: 850px;
+    margin-left: auto;
+    margin right: auto;
     background-repeat: no-repeat;
     box-shadow: 0 0 100px #000000;
     border-top-right-radius: 30px;
@@ -170,6 +171,9 @@ body{
     display: block;
     margin-left : auto;
     margin-right: auto;
+}
+.judul-kupon img:hover {
+    scale: 1.1;
 }
 .script-kupon {
     padding-left: 55px;
