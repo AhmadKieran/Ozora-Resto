@@ -40,7 +40,7 @@ body{
     }
 }
 #landing-page{
-    background-image: url(/Assets/Kodansha2.jpg);
+    background-image: url(Assets/Kodansha2.jpg);
     max-width: 990px; min-width: 990px;
     max-height: 4000px; min-height: 4000px;
     margin-left: 850px;
@@ -76,6 +76,36 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    .button-1 {
+        position: relative;
+        text-decoration: none;
+        overflow: hidden;
+        margin-left: 30px;
+        transition: 0.2s;
+    }
+    .button-1:hover {
+        scale: 1.1;
+    }
+    .button-2 {
+        position: relative;
+        text-decoration: none;
+        overflow: hidden;
+        margin-left: 30px;
+        transition: 0.2s;
+    }
+    .button-2:hover {
+        scale: 1.1;
+    }
+    .button-3 {
+        position: relative;
+        text-decoration: none;
+        overflow: hidden;
+        margin-left: 30px;
+        transition: 0.2s;
+    }
+    .button-3:hover {
+        scale: 1.1;
     }
     .pages {
         padding-top: 90px;
